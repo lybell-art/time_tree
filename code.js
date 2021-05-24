@@ -641,7 +641,7 @@ class Player
 	stopSFX()
 	{
 		if(this.sfx == null) return false;
-		if(this.sfx.isPlaying && this.scene==1) this.sfx.stop();
+		if(this.sfx.isPlaying) this.sfx.stop();
 	}
 	showCaption()
 	{
