@@ -2,8 +2,8 @@ import * as THREE from './libs/three.module.js';
 import { MTLLoader } from './libs/plugins/MTLLoader.js';
 import { OBJLoader } from './libs/plugins/OBJLoader.js';
 import { PointerLockControls } from './libs/plugins/PointerLockControls.js';
-import { Sky } from './libs/plugins/sky.js';
-import { Water } from './libs/plugins/water.js';
+import { Sky } from './libs/plugins/Sky.js';
+import { Water } from './libs/plugins/Water.js';
 import { OrbitControls } from './libs/plugins/OrbitControls.js';
 import Stats from './libs/plugins/stats.module.js';
 
